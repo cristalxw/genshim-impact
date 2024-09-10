@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            color: white;
+            background: black;
+            margin: 0;
+            font-family: "Chakra Petch", sans-serif;
+            margin-bottom: 100px;
+        }
+
+        header {
+            border-bottom: solid 2px rgb(42, 122, 228);
+            padding: 20px;
+            font-size: 32px;
+            color: rgb(42, 122, 228);
+            background-image: url('https://example.com/path-to-genshin-impact-header-bg.jpg'); /* Adicione uma imagem de fundo temática */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: rgb(42, 122, 228);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .chamada {
+            background: rgb(184, 156, 213);
+            padding-bottom: 80px;
+            padding-top: 80px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .chamada-texto {
+            margin-right: 5%;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .categoria {
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .categoria h2 {
+            color: rgb(42, 122, 228);
+            margin-bottom: 20px;
+        }
+
+        .categoria-videos {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            padding: 10px 0;
+        }
+
+        .categoria-videos img {
+            opacity: 0.5;
+            height: 200px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .categoria-videos img:hover {
+            opacity: 1.0;
+            border: 3px solid green;
+        }
+
+        footer {
+            background-color: rgb(42, 122, 228);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Genshin Impact</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre o Jogo</a></li>
+                <li><a href="#characters">Personagens</a></li>
+                <li><a href="#news">Notícias</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="chamada">
+        <div class="chamada-texto">
+            <h1>Explorando Teyvat</h1>
+            <p>#AventuraNoMundoAberto</p>
+        </div>
+
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Pw7lAtya6qU" 
+                title="Genshin Impact Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2>Personagens e Aventuras</h2>
+        <div class="categoria-videos">
+            <a href="https://www.youtube.com/watch?v=6Q-7a5hCzjo">
+                <img src="https://img.youtube.com/vi/6Q-7a5hCzjo/maxresdefault.jpg" alt="Personagem 1" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=6R9j8i7sl5A">
+                <img src="https://img.youtube.com/vi/6R9j8i7sl5A/maxresdefault.jpg" alt="Personagem 2" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=f2Aq2bN1eh0">
+                <img src="https://img.youtube.com/vi/f2Aq2bN1eh0/maxresdefault.jpg" alt="Personagem 3" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=lA4EyfQUuIE">
+                <img src="https://img.youtube.com/vi/lA4EyfQUuIE/maxresdefault.jpg" alt="Personagem 4" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=kNpFyxF7s4M">
+                <img src="https://img.youtube.com/vi/kNpFyxF7s4M/maxresdefault.jpg" alt="Personagem 5" />
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Genshin Impact Fansite. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
